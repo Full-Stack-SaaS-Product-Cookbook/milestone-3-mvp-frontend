@@ -1,0 +1,5 @@
+enum AppMessage {
+    MAILCHIMP_SUBSCRIPTION_SUCCESSFUL = 'MAILCHIMP_SUBSCRIPTION_SUCCESSFUL'
+}
+
+export default AppMessage

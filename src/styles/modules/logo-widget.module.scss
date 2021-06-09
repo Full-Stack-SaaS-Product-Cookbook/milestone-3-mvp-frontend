@@ -1,0 +1,50 @@
+.topLeftScrew,
+.topRightScrew,
+.bottomLeftScrew,
+.bottomRightScrew {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.topLeftScrew {
+  animation: turnClockwise 1s ease-in-out infinite;
+}
+.topRightScrew {
+  animation: turnCounterClockwise 5s ease-in infinite;
+}
+.bottomLeftScrew {
+  animation: turnHalfThenBack 3s ease-out infinite;
+}
+.bottomRightScrew {
+  animation: turnClockwise 10s ease-in-out infinite;
+}
+
+@keyframes turnClockwise {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes turnCounterClockwise {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes turnHalfThenBack {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}

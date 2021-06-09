@@ -1,0 +1,31 @@
+{
+  "name": "reduxplate-functions",
+  "version": "1.0.0",
+  "description": "Netlify serverless functions for ReduxPlate",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://princefishthrower@bitbucket.org/princefishthrower/reduxplate.com.git"
+  },
+  "keywords": [
+    "developer-tool",
+    "redux",
+    "redux-toolkit",
+    "react-redux",
+    "saas",
+    "saas-product"
+  ],
+  "author": "Chris Frewin",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/princefishthrower/reduxplate.com#readme",
+  "dependencies": {
+    "@netlify/functions": "^0.7.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
